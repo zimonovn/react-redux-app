@@ -18,6 +18,7 @@ export default class PostForm extends React.Component{
                 <label htmlFor="title">Post Title</label>
                 <input type="text" className="form-control" id="title"/>
             </div>
+            <button className="btn btn-success" type="submit">CREATE</button>
         </form>
     }
 }
